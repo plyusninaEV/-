@@ -17,7 +17,8 @@
 - VolumeLabel: получает или устанавливает метку тома
 - RootDirectory: возвращает информацию о корневом каталоге диска
 Получим информацию обо всех дисках на компьютере:
-```using System;
+```
+using System;
 using System.IO;
 namespace FileSystem
 {
@@ -39,7 +40,9 @@ namespace FileSystem
             }
         }
     }
-}```
+}
+```
+
 
 ## 2. Работа с каталогами
 
